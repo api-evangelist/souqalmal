@@ -1,7 +1,25 @@
 aid: souqalmal
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/souqalmal.png
 name: Souqalmal
-description: Souqalmal is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Souqalmal was a UAE-based personal-finance comparison marketplace that let
+  consumers across the GCC compare and apply for credit cards, personal loans, bank accounts,
+  and insurance products online. The brand has since transitioned to Yabi (yabimoney.com),
+  an AI-powered financial coaching application offering personalized guidance, budgeting
+  tools, spending tracking, credit checks, and financial-education content on iOS and
+  Android. Backed by 500 Global. The souqalmal.com domain now permanently redirects to
+  yabimoney.com. No public developer, API, or partner-integration surface is currently
+  published.
 url: https://raw.githubusercontent.com/api-evangelist/souqalmal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Personal Finance
+- Financial Comparison
+- Consumer Lending
+- Credit Cards
+- Insurance
+- Financial Coaching
+- UAE
+- Middle East
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/souqalmal-domain-security.yml
 - type: Website
   url: https://yabimoney.com
+- type: Support
+  url: https://yabimoney.com/faq
+- type: TermsOfService
+  url: https://yabimoney.com/terms-and-condition
+- type: PrivacyPolicy
+  url: https://yabimoney.com/privacy-policy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
